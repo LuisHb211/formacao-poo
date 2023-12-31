@@ -1,1 +1,1 @@
-App de cadastramento e avaliado de restaurantes, em python, console.
+App de cadastramento e avaliação de restaurantes, em python, console.
