@@ -1,0 +1,7 @@
+Os arquivos foram organizados por restaurante, cada um agindo como seu proprio cardapio. Ao acessar o do Burger King, encontramos detalhes como itens, precos e descricoes especificas desse restaurante. No entanto, ao retornar a API, identificamos uma URL contendo informacoes de API, restaurante e JSON, como 'api-restaurantes/burgerking', que idealmente utilizariamos para acessar o cardapio diretamente. Assim, para esse projeto, sera usado o framework FastAPI para comecar a criar uma rota e colocar essas informacoes que criamos em uma URL.
+
+---> Para instalacao do FastAPI, no terminal, digita-se: 
+'pip install fastapi'
+Alem disso, eh necessario instalar o 'servidor' do FastAPI:
+'pip install uvicorn'
+

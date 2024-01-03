@@ -1,0 +1,7 @@
+---> Uma das funcoes do backend eh coletar as informações e de alguma forma compartilhá-las para que o time de front-end possa criar a interface visual, e o time de mobile possa desenvolver o aplicativo.
+
+Para isso, podemos usar o protocolo HTTP, que é uma forma de compartilhar recursos e informações de hipertexto. Uma das formas que temos para utilizar essa comunicação é através de uma API, um termo muito comum no desenvolvimento.
+
+Sempre que fazemos uma solicitação, por exemplo, queremos acessar uma página de um site ou uma rede social, o que estamos fazendo é uma requisição. Internamente, a internet funciona através de requisições. Existe uma requisição em que vamos até um servidor e solicitamos o acesso à página principal, e o servidor nos retorna uma resposta.
+
+Porém, não queremos retornar a construção daquela página em HTML, CSS, Flutter ou Swift - seja para mobile ou desktop. O que queremos retornar são as informações, ou seja, expor esses dados e recursos que desenvolvemos na nossa aplicação.
