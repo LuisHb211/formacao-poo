@@ -1,0 +1,22 @@
+---> O cadastro dos restaurantes e dos itens do cardápio foi concluído. O próximo passo é disponibilizar esses itens para que as equipes de front-end e mobile possam consumi-los e criar páginas, visando aprimorar a interface do aplicativo.
+
+Entretanto, para implementar esse cenário e disponibilizar os dados, responsabilidades do back-end no mundo real, será necessário instalar diversas ferramentas e recursos do Python.
+
+A complicação se da no fato de que, para permitir que outros desenvolvedores da equipe possam executar esses ambientes, é crucial assegurar a uniformidade na versão do Python, assim como nas versões das bibliotecas e módulos que serão utilizados.
+
+Esses pacotes/versoes/biliotecas baixadas e usadas no projeto, entao, serao 'armazenadas' apenas nesse ambiente virutal, nao sendo necessariamente o utilizado no seu computador em si, o que evita conflitos.
+
+---> Para criar esse ambiente virutal basta entrar no terminal e digitar: 'python -m venv venv'
+O  ultimo venv eh o nome desse ambiente virutal, e, por boa pratica, usa-se venv
+
+Esse ambiente virtual criado deve ser ATIVADO, para isso basta abrir o terminal e digitar: 
+'venv\Scripts\activate.bat'
+Lembrando que esse eh o metodo para ativar a venv no Windows, sendo diferente para linux e mac.
+
+Para DESATIVAR o ambiente virutal bastar entrar no terminal e digitar: 'deactivate'
+
+---> Para instalar bibliotecas que nao sao padroes do python utiliza-se o 'pip' que eh um gerenciado de de modulos e pacotes do Python. Exemplo de seu uso: 'pip install requests' 
+
+---> Como foi dito sobre a importancia de assegurar a uniformidade da versao do Python, biliotecas e modulos usados no projeto, torna-se uma BOA PRATICA lista-los em um arquivo txt. Para isso, no terminal, usa-se: 
+'pip freeze > requirements.txt'.
+
