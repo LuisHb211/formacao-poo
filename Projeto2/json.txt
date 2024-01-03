@@ -1,0 +1,7 @@
+---> JSON eh uma forma de notação de objetos JavaScript, de modo que eles possam ser representados de uma forma comum a diversas linguagens.
+
+Um fator importante eh que ele seja facilmente trafegado entre aplicacoes em quaisquer protocolos, inclusive o HTTP. Portanto, a principal diferenca entre um objeto JavaScript padrao e um JSON eh o fato do JSON ser na realidade um texto.
+
+O JSON eh um formato de dados leve e de facil leitura utilizado para troca de informacoes entre sistemas computacionais. Ele eh frequentemente usado para transmitir dados entre um servidor e um cliente em aplicacoes web e moveis, embora tambem seja utilizado em diversos outros contextos.
+
+Ele eh amplamente utilizado na web para representar dados estruturados de forma legivel tanto para humanos quanto para maquinas. Em resumo, o JSON eh uma forma popular de representar dados estruturados e transferi-los entre diferentes sistemas.
