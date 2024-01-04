@@ -42,7 +42,7 @@ Ative o servido e clique no ip que irá aparecer no terminal.
 ```
 uvicorn main:app --reload
 ```
-Digite: http://127.0.0.1:8000/docs para visualizar todos os endpoints da aplicação.
+Digite: ```http://127.0.0.1:8000/docs``` para visualizar todos os endpoints da aplicação.
 
 ### 🔧 Funcionamento
 O projeto 1 têm o intuito de: a partir do app.py, criar um restaurante a partir da classe Restaurante, criar pratos e bebidas através de suas respectivas classes, aplicar a função desconto e adiciona-los ao cardápio, no final listar o caardápio no console. Para criar novos pratos, deve-se alterar no próprio arquivo app.py
@@ -58,7 +58,7 @@ Além disso, por meio do FastAPI criar uma 'api' que disponibilizar esse cardáp
 * [FastAPI](https://fastapi.tiangolo.com/) - Framework usado
 * [GIT](https://git-scm.com/) - Controle de versionamento 
 
-## 🎁 Expressões de gratidão
+## 🎁 Conclusão
 
 * Projeto desenvolvido para aprofundar em POO, com python, e iniciar no caminho do backend;
 * Compreensão de API's, git e variáveis de ambientes;
